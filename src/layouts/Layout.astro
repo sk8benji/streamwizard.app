@@ -9,8 +9,8 @@ interface Props {
 }
 
 const {
-  title = "Stream Wizard | Studio-Quality Remote Podcast & Video Recording",
-  description = "Record studio-grade remote podcasts and video interviews. Stream Wizard records separate local multitrack audio (48kHz WAV) and up to 4K video, with instant AI transcription and continuous cloud backup.",
+  title = "Stream Wizard | Grabación Remota de Podcasts y Video en Calidad de Estudio",
+  description = "Graba podcasts y entrevistas a distancia en calidad de estudio profesional. Stream Wizard graba pistas locales separadas de audio (WAV 48kHz) y video hasta 4K, con transcripción automática por IA y respaldo continuo en la nube.",
   canonicalUrl = Astro.url.href,
   ogImage = "/logo.jpg"
 } = Astro.props;
@@ -22,7 +22,7 @@ if (resolvedCanonical.endsWith('/index.html')) {
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,7 +31,7 @@ if (resolvedCanonical.endsWith('/index.html')) {
     
     <title>{title}</title>
     <meta name="description" content={description} />
-    <meta name="keywords" content="Stream Wizard, remote podcast recording, local multitrack recording, 4K video podcast, 48kHz WAV audio, AI transcription, podcast studio software, remote interview recording, cloud video backup" />
+    <meta name="keywords" content="Stream Wizard, grabación remota de podcast, pistas separadas de audio, video 4K podcast, audio WAV 48kHz, transcripción con IA, software para podcast, grabación de entrevistas remotas, respaldo de video en la nube" />
     <link rel="canonical" href={resolvedCanonical} />
 
     <!-- Open Graph / Social -->

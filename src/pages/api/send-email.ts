@@ -19,17 +19,17 @@ export const POST: APIRoute = async ({ request }) => {
     // Is this a Support Ticket or a Demo Request?
     const isSupport = formType === 'support_ticket';
     const emailSubject = isSupport
-      ? `[Voice Wizard Support] ${topic || 'General Inquiry'} - ${name}`
-      : `[Voice Wizard Demo Request] ${company || name} (${callVolume || 'New Lead'})`;
+      ? `[Stream Wizard Soporte] ${topic || 'Consulta General'} - ${name}`
+      : `[Stream Wizard Contacto] ${company || name} (${callVolume || 'Nuevo Lead'})`;
 
     const htmlContent = `
       <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 620px; margin: 0 auto; padding: 24px; border: 1px solid #e2e8f0; border-radius: 12px; background-color: #ffffff;">
-        <div style="text-align: center; margin-bottom: 24px; border-bottom: 2px solid #2563eb; padding-bottom: 16px;">
+        <div style="text-align: center; margin-bottom: 24px; border-bottom: 2px solid #06b6d4; padding-bottom: 16px;">
           <h2 style="color: #0f172a; margin: 0; font-size: 24px; font-weight: 800;">
-            VOICE <span style="color: #2563eb;">WIZARD</span>
+            STREAM <span style="color: #06b6d4;">WIZARD</span>
           </h2>
           <p style="color: #64748b; font-size: 13px; margin-top: 4px; text-transform: uppercase; letter-spacing: 1px;">
-            ${isSupport ? 'Customer Support Center Notification' : 'New Inbound Demo & Sales Inquiry'}
+            ${isSupport ? 'Notificación del Centro de Soporte' : 'Nueva Solicitud de Acceso al Estudio'}
           </p>
         </div>
 
