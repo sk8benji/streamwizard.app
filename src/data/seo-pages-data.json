@@ -1,0 +1,52 @@
+[
+  {
+    "serviceSlug": "storefronts-glass-repair",
+    "citySlug": "burbank",
+    "title": "Storefront Glass Repair & Replacement in Burbank",
+    "description": "Commercial storefront glass repair, safety tempered glass replacement, and emergency boarding up services for retail shops in Burbank, CA.",
+    "serviceType": "repair",
+    "serviceLabel": "Storefront Glass Repair",
+    "heroTitleLine1": "Storefront Glass Repair",
+    "heroTitleLine2": "in Burbank, CA",
+    "heroText": "Keep your retail store secure and inviting. We replace heavy commercial glass sheets, repair metal door frames, and provide night boarding up in Burbank.",
+    "proseTitle": "Burbank Retail Storefront Window & Glass Door Upgrades",
+    "proseParagraphs": [
+      "Burbank businesses need fast, durable, and code-compliant glass repairs to minimize operational downtime and protect inventories. A cracked glass pane can be a major liability.",
+      "We provide commercial storefront glass replacements in Burbank. We install certified tempered safety glass and dual-pane insulated panels, coordinating off-hours schedules to prevent customer disruption."
+    ],
+    "faqs": [
+      {
+        "q": "Do you work with business managers during closed hours in Burbank?",
+        "a": "Yes, we can perform the storefront glass replacement early in the morning or late at night so your business operations are completely uninterrupted."
+      },
+      {
+        "q": "What storefront safety glass options do you offer?",
+        "a": "We install commercial-grade tempered safety glass and laminated impact-resistant glass that comply fully with Burbank building safety codes."
+      }
+    ]
+  },
+  {
+    "serviceSlug": "window-repair-service",
+    "citySlug": "encino",
+    "title": "Professional Window Repair Service in Encino",
+    "description": "Local window repair services in Encino, CA. We fix broken window balances, faulty locks, drafts, and cracked glass in sashes.",
+    "heroTitleLine1": "Window Repair Service",
+    "heroTitleLine2": "in Encino, CA",
+    "heroText": "Fix sticky window sashes, drafty panes, and broken window spring balances. We restore vinyl, wood, and aluminum windows to peak operation in Encino.",
+    "proseTitle": "Complete Home & Business Window Mechanical Restorations in Encino",
+    "proseParagraphs": [
+      "If your home windows are hard to open or won't stay up, your window balances are likely broken. Shifting soils and age in Encino homes can also warp frames, causing window lock misalignment.",
+      "We provide expert window mechanical and glass repairs in Encino. We replace spring coils, swap out cracked panes in existing frames, and replace locks to save you the expense of buying new window units."
+    ],
+    "faqs": [
+      {
+        "q": "Can you fix a window that won't slide up easily?",
+        "a": "Yes, this is usually caused by worn-out balances or dirt in the sash tracks. We clean tracks and replace balances, restoring smooth sliding sash operation."
+      },
+      {
+        "q": "Do you repair residential window frames in Encino?",
+        "a": "Yes. We repair vinyl window tracks, split wood frames, and install locks and weather seals to prevent drafts."
+      }
+    ]
+  }
+]

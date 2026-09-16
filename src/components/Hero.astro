@@ -1,0 +1,206 @@
+---
+// Hero component with real Stream Wizard Studio Showcase
+---
+
+<section class="relative pt-10 pb-20 md:pt-16 md:pb-28 overflow-hidden bg-radial-glow">
+  <div class="container mx-auto text-center px-4 sm:px-6">
+    <!-- Announcement Badge -->
+    <div class="inline-flex items-center justify-center mb-6">
+      <div class="badge-pill shadow-xs">
+        <span class="flex h-2 w-2 rounded-full bg-cyan-500 animate-ping"></span>
+        <span class="text-xs uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-cyan-100 text-cyan-800">New Studio Release</span>
+        <span class="text-slate-700 font-medium">Local Multitrack Recording &bull; AI Transcripts &bull; Cloud Backup</span>
+      </div>
+    </div>
+
+    <!-- Main Headline -->
+    <h1 class="mx-auto max-w-4xl text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-slate-950 leading-[1.08] mb-6">
+      Studio-Quality Remote Recording. <br class="hidden sm:inline" />
+      <span class="text-gradient">Separate Tracks. Zero Dropouts.</span>
+    </h1>
+
+    <!-- Subtitle -->
+    <p class="mx-auto max-w-2xl text-lg sm:text-xl text-slate-600 font-normal leading-relaxed mb-10">
+      Stream Wizard records pristine 4K video and crystal-clear 48kHz WAV audio directly on each participant's device. Bad Wi-Fi won't ruin your episode. Instant AI transcripts and seamless cloud sync included.
+    </p>
+
+    <!-- CTAs -->
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+      <a 
+        href="https://my.streamwizard.app" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="btn-gradient w-full sm:w-auto text-base py-3.5 px-8 font-semibold shadow-lg group flex items-center justify-center gap-2"
+      >
+        <span>Launch Studio Free</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform group-hover:translate-x-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+      <a 
+        href="#features" 
+        class="btn-outline w-full sm:w-auto text-base py-3.5 px-8 font-semibold"
+      >
+        How Local Recording Works
+      </a>
+    </div>
+
+    <!-- Studio UI Preview Showcase -->
+    <div class="relative mx-auto max-w-5xl">
+      <!-- Glow effect behind preview -->
+      <div class="absolute -inset-1 bg-gradient-to-r from-cyan-500 via-sky-500 to-blue-600 rounded-3xl blur-2xl opacity-20 -z-10 transform scale-95"></div>
+
+      <!-- Real App Dashboard Frame -->
+      <div class="rounded-2xl sm:rounded-3xl border border-slate-800/80 bg-slate-950 p-2 sm:p-4 shadow-2xl overflow-hidden text-left">
+        <!-- Studio Header Bar -->
+        <div class="flex flex-wrap items-center justify-between px-3 py-2 border-b border-slate-800 mb-3 gap-2">
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-rose-500"></span>
+            <span class="w-3 h-3 rounded-full bg-amber-500"></span>
+            <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+            <span class="ml-2 text-xs font-mono text-slate-400 font-medium">https://my.streamwizard.app/studio/ep-38-ai-revolution</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-rose-400 bg-rose-950/80 border border-rose-800/60 px-2.5 py-1 rounded-full">
+              <span class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
+              REC 00:24:18
+            </span>
+            <span class="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold text-cyan-400 bg-cyan-950/60 border border-cyan-800/60 px-2.5 py-1 rounded-full">
+              <span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+              Cloud Sync: 100% Buffered
+            </span>
+          </div>
+        </div>
+
+        <!-- Studio Video Grid: 2 Isolated Camera Feeds -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 p-1">
+          <!-- Host Tile -->
+          <div class="relative rounded-xl overflow-hidden bg-slate-900 border border-slate-800 aspect-video flex flex-col justify-between p-4 group">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-slate-950/40 z-10 pointer-events-none"></div>
+            <!-- Background simulated video canvas -->
+            <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-slate-800 to-slate-950 opacity-90 flex items-center justify-center">
+              <div class="w-20 h-20 rounded-full bg-cyan-950/80 border border-cyan-500/40 flex items-center justify-center text-3xl text-cyan-400 shadow-inner">
+                🎙️
+              </div>
+            </div>
+
+            <!-- Tile Top Badges -->
+            <div class="relative z-20 flex items-center justify-between">
+              <span class="px-2 py-0.5 rounded bg-cyan-500/20 border border-cyan-400/30 text-cyan-300 text-[11px] font-mono font-bold tracking-wider">
+                HOST &bull; 4K 60FPS
+              </span>
+              <span class="px-2 py-0.5 rounded bg-emerald-950/80 border border-emerald-500/40 text-emerald-400 text-[11px] font-bold flex items-center gap-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Local ISO Master Active
+              </span>
+            </div>
+
+            <!-- Tile Bottom Info & VU Meter -->
+            <div class="relative z-20 flex items-end justify-between">
+              <div>
+                <div class="text-white font-bold text-sm">Marcus Vance</div>
+                <div class="text-xs text-slate-400">Shure SM7B &bull; 48kHz WAV</div>
+              </div>
+              <!-- Audio Waveform Bars -->
+              <div class="flex items-end gap-1 h-5">
+                <span class="w-1 bg-cyan-400 rounded-full h-3 animate-pulse"></span>
+                <span class="w-1 bg-cyan-400 rounded-full h-5 animate-pulse"></span>
+                <span class="w-1 bg-cyan-400 rounded-full h-2 animate-pulse"></span>
+                <span class="w-1 bg-cyan-400 rounded-full h-4 animate-pulse"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Guest Tile -->
+          <div class="relative rounded-xl overflow-hidden bg-slate-900 border border-slate-800 aspect-video flex flex-col justify-between p-4 group">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-slate-950/40 z-10 pointer-events-none"></div>
+            <!-- Background simulated video canvas -->
+            <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-950 to-slate-950 opacity-90 flex items-center justify-center">
+              <div class="w-20 h-20 rounded-full bg-blue-950/80 border border-blue-500/40 flex items-center justify-center text-3xl text-blue-400 shadow-inner">
+                🎧
+              </div>
+            </div>
+
+            <!-- Tile Top Badges -->
+            <div class="relative z-20 flex items-center justify-between">
+              <span class="px-2 py-0.5 rounded bg-blue-500/20 border border-blue-400/30 text-blue-300 text-[11px] font-mono font-bold tracking-wider">
+                GUEST &bull; 4K 60FPS
+              </span>
+              <span class="px-2 py-0.5 rounded bg-emerald-950/80 border border-emerald-500/40 text-emerald-400 text-[11px] font-bold flex items-center gap-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Local ISO Master Active
+              </span>
+            </div>
+
+            <!-- Tile Bottom Info & VU Meter -->
+            <div class="relative z-20 flex items-end justify-between">
+              <div>
+                <div class="text-white font-bold text-sm">Dr. Sofia Chen</div>
+                <div class="text-xs text-slate-400">Rode PodMic &bull; 48kHz WAV</div>
+              </div>
+              <!-- Audio Waveform Bars -->
+              <div class="flex items-end gap-1 h-5">
+                <span class="w-1 bg-cyan-400 rounded-full h-4 animate-pulse"></span>
+                <span class="w-1 bg-cyan-400 rounded-full h-2 animate-pulse"></span>
+                <span class="w-1 bg-cyan-400 rounded-full h-5 animate-pulse"></span>
+                <span class="w-1 bg-cyan-400 rounded-full h-3 animate-pulse"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live AI Transcript Preview Strip -->
+        <div class="mt-3 p-3 rounded-xl bg-slate-900/90 border border-slate-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
+          <div class="flex items-center gap-2 text-cyan-400 font-mono font-semibold shrink-0">
+            <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+            AI Transcript Live:
+          </div>
+          <div class="text-slate-300 truncate text-xs sm:text-sm">
+            <span class="font-bold text-cyan-300">Dr. Sofia Chen:</span> "Because Stream Wizard records locally on my device, network packet loss doesn't affect our final audio or 4K master..."
+          </div>
+          <div class="text-slate-500 shrink-0 font-mono text-[11px]">
+            [00:24:18 &rarr; Auto-Syncing]
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating Track Download Badges for Depth -->
+      <div class="hidden sm:flex absolute -bottom-6 -left-6 bg-white border border-slate-200/90 rounded-2xl p-4 shadow-xl items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-cyan-50 text-cyan-600 flex items-center justify-center font-bold text-lg">
+          🎙️
+        </div>
+        <div class="text-left">
+          <div class="text-xs text-slate-500 font-medium">Independent Audio Masters</div>
+          <div class="text-sm font-bold text-slate-900">Separate 48kHz WAV Tracks</div>
+        </div>
+      </div>
+
+      <div class="hidden sm:flex absolute -top-6 -right-6 bg-white border border-slate-200/90 rounded-2xl p-4 shadow-xl items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold text-lg">
+          ⚡
+        </div>
+        <div class="text-left">
+          <div class="text-xs text-slate-500 font-medium">Automatic Cloud Upload</div>
+          <div class="text-sm font-bold text-slate-900">Zero Local Storage Worries</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Proof Bar -->
+    <div class="mt-20 pt-10 border-t border-slate-100">
+      <p class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-8">
+        Built for podcasters, remote interviewers, content creators & media agencies
+      </p>
+
+      <div class="marquee-container">
+        <div class="marquee-content font-bold text-slate-400 text-base sm:text-lg tracking-tight">
+          <span class="flex items-center gap-2">✦ TECH PULSE PODCAST</span>
+          <span class="flex items-center gap-2">✦ FOUNDERS ROUNDTABLE</span>
+          <span class="flex items-center gap-2">✦ GLOBAL INTERVIEW LAB</span>
+          <span class="flex items-center gap-2">✦ AUDIO CRAFT MEDIA</span>
+          <span class="flex items-center gap-2">✦ VIDEO PODCAST NETWORK</span>
+          <span class="flex items-center gap-2">✦ TECH PULSE PODCAST</span>
+          <span class="flex items-center gap-2">✦ FOUNDERS ROUNDTABLE</span>
+          <span class="flex items-center gap-2">✦ GLOBAL INTERVIEW LAB</span>
+          <span class="flex items-center gap-2">✦ AUDIO CRAFT MEDIA</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

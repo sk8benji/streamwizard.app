@@ -1,0 +1,864 @@
+[
+  {
+    "slug": "residential-glass-repair",
+    "title": "Residential Glass Repair | Sherman Oaks, CA",
+    "description": "Fast and reliable residential window and glass repair services in Sherman Oaks. Same-day single & double-pane window repair.",
+    "serviceType": "repair",
+    "serviceLabel": "Residential Glass Repair",
+    "heroImage": "/residential-glass.jpg",
+    "heroImageAlt": "Glass technician repairing a broken residential window pane",
+    "heroBadge": "Same-Day Home Glass Fixes",
+    "heroTitleLine1": "Residential",
+    "heroTitleLine2": "Glass Repair",
+    "heroText": "Restore your home's safety and curb appeal. We replace broken double-pane windows, sliding patio glass, and custom window frames quickly and professionally.",
+    "breadcrumbsCurrent": "Residential Glass Repair",
+    "whyTitle": "Why Choose Us for Home Glass Repairs",
+    "whySubtitle": "We keep Sherman Oaks homes safe, beautiful, and energy-efficient.",
+    "strengths": [
+      {
+        "icon": "🏠",
+        "title": "Double-Pane Repair",
+        "text": "Specialized in insulated glass units (IGUs) to resolve condensation and restore insulation."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Premium Materials",
+        "text": "We use high-durability tempered and laminated safety glass to prevent future breaks."
+      },
+      {
+        "icon": "🧼",
+        "title": "Clean Cleanup",
+        "text": "Our technicians safely vacuum all shattered glass shards and debris from your home."
+      },
+      {
+        "icon": "⏱️",
+        "title": "Rapid Turnaround",
+        "text": "Same-day service slots available for urgent glass breaks to restore home security."
+      }
+    ],
+    "proseTitle": "Professional Home Window & Glass Repairs",
+    "proseParagraphs": [
+      "A broken window is not just an eyesore—it compromises your home's thermal efficiency and exposes your family to security risks. We provide immediate glass repair solutions to restore your property.",
+      "Our mobile trucks carry standard sizes of residential window glass, allowing us to cut and install replacement panels on-site. For double-pane insulated windows, we take precise measurements and order custom replacements to seal out drafty air.",
+      "Whether it is a minor crack in a kitchen window or a shattered sliding glass door, our background-checked technicians work cleanly and efficiently to complete the repair."
+    ],
+    "proseList": [
+      "Single-pane and double-pane window glass replacement.",
+      "Sliding patio door and French door glass repairs.",
+      "Custom glass table tops, mirrors, and cabinet glass.",
+      "Emergency boarding up and security containment for home windows."
+    ],
+    "proseImage": "/residential-glass.jpg",
+    "proseImageAlt": "Technician fitting clean new glass pane into wooden frame",
+    "comparisonTitle": "Specialized Care vs. Standard Glass Outlets",
+    "comparisonSubtitle": "See why homeowners in Sherman Oaks rely on our local technicians.",
+    "comparisonHeaders": [
+      "Glass Service",
+      "Standard Shops",
+      "Our Specialists"
+    ],
+    "comparisonRows": [
+      {
+        "aspect": "Response Time",
+        "basic": "Next-day or weekly slots",
+        "allstate": "Same-day emergency response"
+      },
+      {
+        "aspect": "Debris Cleanup",
+        "basic": "Broom sweep only",
+        "allstate": "Heavy-duty HEPA vacuuming of all glass shards"
+      },
+      {
+        "aspect": "Safety Glass",
+        "basic": "Basic thin annealed glass",
+        "allstate": "High-grade tempered and laminated options"
+      },
+      {
+        "aspect": "Upfront Cost",
+        "basic": "Vague trip charge fees",
+        "allstate": "Clear, upfront flat-rate estimation"
+      }
+    ],
+    "onboardingTitle": "Our Residential Glass Process",
+    "onboardingSubtitle": "We make repairing your windows simple, clean, and fast.",
+    "onboardingSteps": [
+      {
+        "num": "01",
+        "title": "Initial Estimate",
+        "text": "Describe your window layout and get a transparent estimate over the phone or email."
+      },
+      {
+        "num": "02",
+        "title": "Dimension Check",
+        "text": "We measure your window frames to ensure an airtight, custom-fit glass placement."
+      },
+      {
+        "num": "03",
+        "title": "Frame Preparation",
+        "text": "We carefully remove broken glass fragments, clean the window track, and inspect gaskets."
+      },
+      {
+        "num": "04",
+        "title": "Glass Installation",
+        "text": "We fit the new pane, apply commercial-grade glazier glazing compounds, and seal connections."
+      },
+      {
+        "num": "05",
+        "title": "Final Cleanup",
+        "text": "We clean the new window pane, clean all frames, and verify smooth sash operation."
+      }
+    ],
+    "ctaTitle": "Need Home Glass Repair Today?",
+    "ctaText": "Get in touch with us at (818) 739-8709 for same-day glass solutions.",
+    "faqs": [
+      {
+        "q": "Can you replace just the glass or do I need a new window frame?",
+        "a": "In almost all cases of cracked or shattered glass, we can replace just the glass pane itself without replacing the entire vinyl, wood, or aluminum frame, saving you significant money."
+      },
+      {
+        "q": "Do you offer double-pane glass repairs?",
+        "a": "Yes. We measure your double-pane insulated unit, order a matching custom sealed glass unit, and swap it into your existing frame to restore insulation."
+      }
+    ],
+    "locationsSubtitle": "We provide residential glass repair services across Sherman Oaks, Van Nuys, Encino, and the San Fernando Valley."
+  },
+  {
+    "slug": "glass-replacement",
+    "title": "Professional Glass Replacement | Sherman Oaks, CA",
+    "description": "Expert glass replacement services for windows, entry doors, and commercial storefronts. High-quality tempered & dual-pane glass.",
+    "serviceType": "replacement",
+    "serviceLabel": "Glass Replacement",
+    "heroImage": "/glass-replacement.jpg",
+    "heroImageAlt": "Glazier installing replacement glass in a commercial doorway",
+    "heroBadge": "Complete Glass Upgrades",
+    "heroTitleLine1": "Full-Service",
+    "heroTitleLine2": "Glass Replacement",
+    "heroText": "Upgrade old, cracked, or inefficient glass. We install energy-efficient Low-E glass, heavy-duty tempered safety glass, and custom business window panes.",
+    "breadcrumbsCurrent": "Glass Replacement",
+    "whyTitle": "Why Choose Us for Glass Replacement",
+    "whySubtitle": "We deliver code-compliant replacements engineered for lasting durability and thermal performance.",
+    "strengths": [
+      {
+        "icon": "🏗️",
+        "title": "Heavy Installations",
+        "text": "Equipped to handle large commercial glass sheets and thick storefront replacements safely."
+      },
+      {
+        "icon": "🌱",
+        "title": "Energy Efficient Low-E",
+        "text": "Install modern Low-E coated glass to block UV rays, reduce heat transfer, and lower energy bills."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Impact Resistance",
+        "text": "Upgrade to laminated safety glass designed to withstand high winds and prevent break-ins."
+      },
+      {
+        "icon": "📐",
+        "title": "Precision Laser Cuts",
+        "text": "We take laser measurements to ensure your replacement glass seals airtight into the frame."
+      }
+    ],
+    "proseTitle": "Aesthetic & Energy-Efficient Glass Upgrades",
+    "proseParagraphs": [
+      "Old, single-pane glass lets heat escape during winter and allows Sherman Oaks heat to infiltrate your home or shop in summer. Upgrading to modern replacement glass dramatically improves insulation and secures your building.",
+      "We specialize in turnkey glass replacement. We source high-quality precast tempered glass, dual-pane units, and heavy commercial sheets that comply with local California building safety codes.",
+      "Whether you are upgrading your home windows for better energy efficiency or replacing damaged storefront panels, our team handles the entire process cleanly."
+    ],
+    "proseList": [
+      "Energy-saving Low-E and dual-pane glass replacements.",
+      "Tempered safety glass for doors, bathrooms, and storefronts.",
+      "Impact-resistant laminated security glass upgrades.",
+      "Tinted and architectural textured glass solutions."
+    ],
+    "proseImage": "/glass-replacement.jpg",
+    "proseImageAlt": "Modern energy-efficient dual-pane window showing airtight seal",
+    "comparisonTitle": "Our Upgrades vs. Basic Glaziers",
+    "comparisonSubtitle": "We build systems designed to perform cleanly for decades.",
+    "comparisonHeaders": [
+      "Replacement Aspect",
+      "Typical Glaziers",
+      "Our Specialist"
+    ],
+    "comparisonRows": [
+      {
+        "aspect": "Glass Grading",
+        "basic": "Basic builder-grade glass",
+        "allstate": "Premium Low-E and safety-rated glass"
+      },
+      {
+        "aspect": "Sealing Compound",
+        "basic": "Standard caulking",
+        "allstate": "Commercial-grade urethane and structural sealants"
+      },
+      {
+        "aspect": "Frame Inspection",
+        "basic": "Ignore frame condition",
+        "allstate": "Clean tracks, fix rollers, and check frame seals"
+      },
+      {
+        "aspect": "Warranty",
+        "basic": "No clear warranty",
+        "allstate": "Comprehensive warranty on seals and glass installation"
+      }
+    ],
+    "onboardingTitle": "Our Replacement Workflow",
+    "onboardingSubtitle": "From exact planning to final installation and cleanup.",
+    "onboardingSteps": [
+      {
+        "num": "01",
+        "title": "Consultation",
+        "text": "We discuss your glass needs, evaluate existing frames, and recommend the best glass type."
+      },
+      {
+        "num": "02",
+        "title": "Laser Measurement",
+        "text": "We measure width, height, and unit thickness to guarantee a perfect seal."
+      },
+      {
+        "num": "03",
+        "title": "Material Sourcing",
+        "text": "We cut or order the tempered, laminated, or dual-pane glass unit."
+      },
+      {
+        "num": "04",
+        "title": "Installation",
+        "text": "We extract the old panel, clean frames, lay structural tapes, and set the new glass."
+      },
+      {
+        "num": "05",
+        "title": "Inspection & Seal",
+        "text": "We apply structural silicone, test locking mechanisms, and clean the glass clean."
+      }
+    ],
+    "ctaTitle": "Ready to Upgrade Your Glass?",
+    "ctaText": "Get a professional consultation and estimate. Call us today at (818) 739-8709.",
+    "faqs": [
+      {
+        "q": "What is Low-E glass and is it worth it?",
+        "a": "Low-E (low-emissivity) glass has a microscopically thin metal oxide coating that reflects heat back to its source. It keeps your house cooler in summer and warmer in winter, reducing energy bills significantly."
+      },
+      {
+        "q": "Do you replace glass in commercial storefronts?",
+        "a": "Yes. We replace large commercial storefront glass sheets, including safety tempered glass and double-pane storefront windows."
+      }
+    ],
+    "locationsSubtitle": "We provide professional glass replacement across Sherman Oaks, Studio City, Encino, and Burbank."
+  },
+  {
+    "slug": "emergency-glass-repair",
+    "title": "Emergency Glass Repair 24/7 | Sherman Oaks, CA",
+    "description": "24/7 emergency glass repair and commercial board up services. Fast response to secure broken storefronts and home windows.",
+    "serviceType": "emergency",
+    "serviceLabel": "Emergency Glass Repair",
+    "heroImage": "/emergency-glass.jpg",
+    "heroImageAlt": "Emergency board up truck parked outside a storefront with shattered windows",
+    "heroBadge": "24/7 Rapid Response",
+    "heroTitleLine1": "Emergency",
+    "heroTitleLine2": "Glass Repair & Board Up",
+    "heroText": "Broken glass after hours? We dispatch immediate glass cleanup, emergency board up, and secure window repair crews to secure your property now.",
+    "breadcrumbsCurrent": "Emergency Glass Repair",
+    "whyTitle": "Why Choose Us for Glass Emergencies",
+    "whySubtitle": "We resolve commercial and residential glass crises immediately, 24 hours a day.",
+    "strengths": [
+      {
+        "icon": "🚨",
+        "title": "24/7 Dispatch",
+        "text": "Our emergency glazier trucks are stocked with board-up wood, glass, and tools for night calls."
+      },
+      {
+        "icon": "🏪",
+        "title": "Storefront Security",
+        "text": "We board up broken commercial storefronts immediately to protect inventory from theft."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Liability Protection",
+        "text": "We eliminate premises liability by removing dangerous glass fragments and securing entries."
+      },
+      {
+        "icon": "⚡",
+        "title": "60-Min Response",
+        "text": "We prioritize local Sherman Oaks dispatch, aiming to be at your door within the hour."
+      }
+    ],
+    "proseTitle": "Immediate Protection Following a Break",
+    "proseParagraphs": [
+      "A break-in, storm, or accident can leave your business or home exposed in the middle of the night. You cannot wait days for a repair. You need immediate security containment to protect your property and family.",
+      "We provide 24/7 emergency glass repair and boarding up services. We board up broken windows, clean up hazardous glass shards, and take measurements to prepare a permanent glass replacement.",
+      "Our team is trusted by local business managers and homeowners to secure storefronts, doors, and large windows quickly, preventing further loss."
+    ],
+    "proseList": [
+      "24/7 emergency boarding up for doors and windows.",
+      "Immediate storefront cleanup and hazardous glass removal.",
+      "Same-day emergency glass repairs and secure fittings.",
+      "Temporary board up security panels following break-ins."
+    ],
+    "proseImage": "/emergency-glass.jpg",
+    "proseImageAlt": "Technician boarding up a shattered window frame with plywood",
+    "comparisonTitle": "Emergency Service vs. Standard Locksmiths",
+    "comparisonSubtitle": "We focus on complete structural security and immediate cleanup.",
+    "comparisonHeaders": [
+      "Emergency Aspect",
+      "Standard Services",
+      "Our Emergency Crew"
+    ],
+    "comparisonRows": [
+      {
+        "aspect": "Response Hours",
+        "basic": "8 AM - 5 PM only",
+        "allstate": "True 24/7/365 emergency dispatch"
+      },
+      {
+        "aspect": "Board Up Quality",
+        "basic": "Rough cardboard cover",
+        "allstate": "Thick plywood secured to frames with zero frame damage"
+      },
+      {
+        "aspect": "Glass Disposal",
+        "basic": "Left in client trash",
+        "allstate": "Full collection and safe off-site disposal of broken glass"
+      },
+      {
+        "aspect": "Billing",
+        "basic": "Cash upfront only",
+        "allstate": "Insurance-friendly manifest receipts and quotes"
+      }
+    ],
+    "onboardingTitle": "Our Emergency Workflow",
+    "onboardingSubtitle": "Fast, structured containment to restore property security.",
+    "onboardingSteps": [
+      {
+        "num": "01",
+        "title": "Emergency Dispatch",
+        "text": "Call (818) 739-8709 and describe the damage to get a rapid crew dispatch."
+      },
+      {
+        "num": "02",
+        "title": "Site Assessment",
+        "text": "We arrive, assess frame damage, and map out secure boarding locations."
+      },
+      {
+        "num": "03",
+        "title": "Glass Mitigation",
+        "text": "We clean up and remove dangerous glass fragments from the frames and floors."
+      },
+      {
+        "num": "04",
+        "title": "Boarding Up",
+        "text": "We install custom-cut plywood panels to completely seal window and door openings."
+      },
+      {
+        "num": "05",
+        "title": "Replacement Planning",
+        "text": "We measure the frame sizes and prepare a quote for permanent glass installation."
+      }
+    ],
+    "ctaTitle": "Shattered Window or Storefront Glass?",
+    "ctaText": "Do not leave your building unsecured. Call our emergency crew now at (818) 739-8709.",
+    "faqs": [
+      {
+        "q": "How quickly can you arrive for emergency board ups in Sherman Oaks?",
+        "a": "We prioritize emergency calls and aim to arrive at your Sherman Oaks property within 30 to 60 minutes after your call."
+      },
+      {
+        "q": "Will boarding up damage my window frames?",
+        "a": "No. We use tension boarding techniques and frame-safe screws to secure the plywood without damaging your wood, vinyl, or aluminum window frames."
+      }
+    ],
+    "locationsSubtitle": "We provide 24/7 emergency glass repair and board up services across Sherman Oaks, Van Nuys, Studio City, Encino, and surrounding San Fernando Valley areas."
+  },
+  {
+    "slug": "window-repair-service",
+    "title": "Window Repair Service | Sherman Oaks, CA",
+    "description": "Local window repair services. We fix broken window glass, damaged vinyl/wood sashes, balances, and window locks in Sherman Oaks.",
+    "serviceType": "repair",
+    "serviceLabel": "Window Repair",
+    "heroImage": "/window-repair-service.jpg",
+    "heroImageAlt": "Technician adjusting window sash lock mechanism",
+    "heroBadge": "Window Hardware & Glass Specialists",
+    "heroTitleLine1": "Professional",
+    "heroTitleLine2": "Window Repair Service",
+    "heroText": "Fix sticky sashes, broken locks, drafty windows, and cracked glass. We restore old wood, vinyl, and aluminum windows to perfect working order.",
+    "breadcrumbsCurrent": "Window Repair",
+    "whyTitle": "Why Choose Us for Window Repairs",
+    "whySubtitle": "We repair sashes, hardware, and glass to restore full window performance.",
+    "strengths": [
+      {
+        "icon": "🛠️",
+        "title": "Hardware Replacement",
+        "text": "We replace broken window balances, operators, cranks, and locks to restore operation."
+      },
+      {
+        "icon": "💨",
+        "title": "Draft Elimination",
+        "text": "Apply weatherstripping and sash adjustments to seal out drafts and lower heating costs."
+      },
+      {
+        "icon": "🪟",
+        "title": "All Frame Types",
+        "text": "Experienced repairing classic wood sashes, modern vinyl windows, and aluminum frames."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Lock Inspections",
+        "text": "We fix faulty latches and locking mechanisms to guarantee home security."
+      }
+    ],
+    "proseTitle": "Complete Window Mechanical & Glass Restorations",
+    "proseParagraphs": [
+      "A window that won't open, stay up, or lock is more than a nuisance—it is a safety risk and a major source of energy loss. Often, the frame is still in good condition, and replacing the entire window unit is an unnecessary expense.",
+      "We provide comprehensive window repair services. We replace broken spring balances, repair crank gears on casement windows, and swap out faulty sashes to make your windows function smoothly again.",
+      "Our team carries a wide range of replacement parts to fix vinyl, wood, and aluminum window frames in a single visit, saving you money and hassle."
+    ],
+    "proseList": [
+      "Window spring balance and tension coil replacement.",
+      "Casement window crank and gear box repairs.",
+      "Window latch, lock, and security handle replacements.",
+      "Weatherstripping upgrades to prevent drafts and leaks."
+    ],
+    "proseImage": "/window-repair-service.jpg",
+    "proseImageAlt": "Glazier cleaning tracks of a vinyl window frame",
+    "comparisonTitle": "Our Window Care vs. Full Replacement",
+    "comparisonSubtitle": "We focus on restoring your existing windows before suggesting an expensive replacement.",
+    "comparisonHeaders": [
+      "Repair Aspect",
+      "Replacement Outlets",
+      "Our Specialists"
+    ],
+    "comparisonRows": [
+      {
+        "aspect": "Repair Option",
+        "basic": "Only sell full replacement units",
+        "allstate": "Targeted repairs for sashes, balances, and locks"
+      },
+      {
+        "aspect": "Cost Factor",
+        "basic": "Extremely high cost per window",
+        "allstate": "Fraction of the cost, replacing only failed parts"
+      },
+      {
+        "aspect": "Installation Time",
+        "basic": "Weeks of ordering and construction",
+        "allstate": "Fast, same-day repairs on most hardware"
+      },
+      {
+        "aspect": "Preserve Styling",
+        "basic": "Changes frame look and color",
+        "allstate": "Keeps your home's original window appearance"
+      }
+    ],
+    "onboardingTitle": "Our Window Repair Workflow",
+    "onboardingSubtitle": "Clean, professional hardware and glass restoration.",
+    "onboardingSteps": [
+      {
+        "num": "01",
+        "title": "Diagnostic Visit",
+        "text": "We examine sash movement, inspect balances, and check locking parts."
+      },
+      {
+        "num": "02",
+        "title": "Part Matching",
+        "text": "We identify the exact replacement balances or gears required for your window model."
+      },
+      {
+        "num": "03",
+        "title": "Disassembly",
+        "text": "We carefully remove the sash from the track to access hidden spring and coil mechanisms."
+      },
+      {
+        "num": "04",
+        "title": "Part Replacement",
+        "text": "We fit the new balances, clean tracks, replace weatherstripping, and install locks."
+      },
+      {
+        "num": "05",
+        "title": "Testing",
+        "text": "We reassemble the window and verify that it opens, stays open, and locks smoothly."
+      }
+    ],
+    "onboardingStepsOriginal": [],
+    "ctaTitle": "Drafty or Hard-to-Open Windows?",
+    "ctaText": "Get them fixed today. Call us at (818) 739-8709 for a fast window repair quote.",
+    "faqs": [
+      {
+        "q": "Why won't my double-hung window stay open?",
+        "a": "This is usually caused by broken window balances (spiral or block-and-tackle balances hidden inside the frame). We can replace these balances to make the window stay open and move easily again."
+      },
+      {
+        "q": "Do you repair broken window locks?",
+        "a": "Yes. We replace broken sash locks, keepers, and handle latches to ensure your home is secure."
+      }
+    ],
+    "locationsSubtitle": "We fix home and business windows in Sherman Oaks, Encino, Van Nuys, Tarzana, and surrounding areas."
+  },
+  {
+    "slug": "storefronts-glass-repair",
+    "title": "Storefront Glass Repair | Sherman Oaks, CA",
+    "description": "Commercial storefront glass repair and replacement. Fast board up and security glass installation for businesses in Sherman Oaks.",
+    "serviceType": "repair",
+    "serviceLabel": "Storefront Glass Repair",
+    "heroImage": "/storefronts-glass-repair.jpg",
+    "heroImageAlt": "Commercial storefront showing clear replacement glass panel",
+    "heroBadge": "Retail Storefront Glaziers",
+    "heroTitleLine1": "Commercial",
+    "heroTitleLine2": "Storefront Glass Repair",
+    "heroText": "Prevent downtime and secure your retail shop. We provide rapid commercial glass boarding up and heavy-duty storefront glass replacements.",
+    "breadcrumbsCurrent": "Storefront Glass Repair",
+    "whyTitle": "Why Choose Us for Storefronts",
+    "whySubtitle": "We keep your retail storefront secure, clean, and welcoming for customers.",
+    "strengths": [
+      {
+        "icon": "🏬",
+        "title": "Retail Compliance",
+        "text": "We install certified safety tempered glass that complies with commercial building codes."
+      },
+      {
+        "icon": "⚡",
+        "title": "Fast Board Up",
+        "text": "Plywood boarding up protects your inventory and storefront from theft or vandalism."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Heavy Glazing",
+        "text": "We handle thick storefront glass panels, insulated glass, and safety storefront transoms."
+      },
+      {
+        "icon": "📅",
+        "title": "Off-Hours Service",
+        "text": "We can schedule the glass installation early morning or late night to avoid retail delays."
+      }
+    ],
+    "proseTitle": "Professional Storefront Glass Cleanup & Replacement",
+    "proseParagraphs": [
+      "A shattered storefront window is a major liability and can force your business to close. If break-ins, vandalism, or an accident breaks your retail glass, you need a contractor who can clean up the glass, board up the opening, and install replacement glass immediately.",
+      "We specialize in commercial storefront glass repair. We handle high-volume retail locations, corporate office lobbies, and boutique storefronts, installing impact-resistant safety glass to secure the building.",
+      "We provide all required compliance and manifest paperwork, working directly with business managers to ensure code-compliant installations."
+    ],
+    "proseList": [
+      "Tempered and laminated commercial storefront glass replacements.",
+      "Emergency boarding up and framing repairs for retail shops.",
+      "Storefront door glass and transom window replacements.",
+      "Aluminum storefront frame sealant and gasket repairs."
+    ],
+    "proseImage": "/storefronts-glass-repair.jpg",
+    "proseImageAlt": "Commercial storefront showing clean, secure glass window",
+    "comparisonTitle": "Our Storefront Care vs. Standard Glass Shops",
+    "comparisonSubtitle": "We provide high-impact, fast response commercial glass services.",
+    "comparisonHeaders": [
+      "Storefront Service",
+      "Standard Outlets",
+      "Our Specialists"
+    ],
+    "comparisonRows": [
+      {
+        "aspect": "Board Up Response",
+        "basic": "Leave storefront exposed",
+        "allstate": "60-minute emergency boarding containment"
+      },
+      {
+        "aspect": "Commercial Glass",
+        "basic": "Order takes several days",
+        "allstate": "Stock standard commercial tempered sizes on hand"
+      },
+      {
+        "aspect": "Safety Code Compliance",
+        "basic": "Basic annealed glass placement",
+        "allstate": "Fully compliant tempered and laminated glass"
+      },
+      {
+        "aspect": "Off-Hours Service",
+        "basic": "Standard business hours only",
+        "allstate": "24/7 scheduling to prevent customer disruption"
+      }
+    ],
+    "onboardingTitle": "Our Storefront Repair Workflow",
+    "onboardingSubtitle": "Clean, code-compliant commercial glass restoration.",
+    "onboardingSteps": [
+      {
+        "num": "01",
+        "title": "Emergency Dispatch",
+        "text": "We arrive immediately to secure the broken storefront area."
+      },
+      {
+        "num": "02",
+        "title": "Glass Removal",
+        "text": "We sweep and vacuum all broken glass fragments and clean the aluminum frame track."
+      },
+      {
+        "num": "03",
+        "title": "Boarding Up",
+        "text": "We fit plywood panels to secure the entrance and protect your storefront inventory."
+      },
+      {
+        "num": "04",
+        "title": "Glass Sourcing",
+        "text": "We measure and cut the tempered safety glass sheet to fit your framing."
+      },
+      {
+        "num": "05",
+        "title": "Installation",
+        "text": "We install the glass, set commercial gaskets, apply weather sealing, and test door handles."
+      }
+    ],
+    "ctaTitle": "Shattered Storefront Window or Commercial Glass?",
+    "ctaText": "Secure your business today. Contact us at (818) 739-8709 for commercial flat-rate estimates.",
+    "faqs": [
+      {
+        "q": "What kind of glass is required for commercial storefronts?",
+        "a": "By California building codes, commercial storefront windows and doors must use safety glass—either tempered glass (which shatters into tiny pebbles) or laminated glass (which stays held in place if broken) to prevent injuries."
+      },
+      {
+        "q": "Can you board up my storefront at night and install glass tomorrow?",
+        "a": "Yes. Our emergency truck boards up storefronts 24/7, and we can schedule the permanent glass installation for the very next business day."
+      }
+    ],
+    "locationsSubtitle": "We manage storefront glass repair and boarding up for businesses in Sherman Oaks, Encino, Studio City, Van Nuys, and Burbank."
+  },
+  {
+    "slug": "door-repairs-replacement",
+    "title": "Door Repairs & Replacement | Sherman Oaks, CA",
+    "description": "Residential & commercial entry door repairs. We fix sticking doors, door glass, door locks, hinges, and install replacement doors in Sherman Oaks.",
+    "serviceType": "repair",
+    "serviceLabel": "Door Repair & Replacement",
+    "heroImage": "/door-repairs-replacement.jpg",
+    "heroImageAlt": "Technician installing lock cylinder in a modern wooden front door",
+    "heroBadge": "Door & Lock Specialists",
+    "heroTitleLine1": "Entry & Security",
+    "heroTitleLine2": "Door Repair & Replacement",
+    "heroText": "Fix sagging hinges, sticking locks, broken glass, and damaged sills. We repair patio doors, commercial glass doors, and residential entry doors.",
+    "breadcrumbsCurrent": "Door Repair",
+    "whyTitle": "Why Choose Us for Door Repairs",
+    "whySubtitle": "We restore security, insulation, and smooth alignment to your home or shop entryways.",
+    "strengths": [
+      {
+        "icon": "🚪",
+        "title": "Hinge & Alignment",
+        "text": "We fix sagging hinges and warped frames to make doors close and latch smoothly."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Lock Replacement",
+        "text": "We replace broken mortise locks, deadbolts, commercial panic bars, and pivots."
+      },
+      {
+        "icon": "💧",
+        "title": "Weather Stripping",
+        "text": "Install heavy-duty weather seals to prevent draft leaks and rain infiltration."
+      },
+      {
+        "icon": "🚨",
+        "title": "Emergency Boarding",
+        "text": "If a break-in kicks in your door, we board up the frame and repair locks immediately."
+      }
+    ],
+    "proseTitle": "Complete Entry Door Alignment & Lock Restorations",
+    "proseParagraphs": [
+      "A damaged front door or a door that won't lock is a critical security vulnerability. Over time, heavy doors sag, hinges wear down, and lock cylinders fail, leaving your building difficult to lock and open.",
+      "We provide professional door repair and replacement services. We align sticking doors, replace worn commercial pivots, swap out glass panes in sliding doors, and install secure entry door sills.",
+      "If your door is beyond repair, we handle the extraction and replacement, installing high-durability wood, metal, or glass doors that improve home security and insulation."
+    ],
+    "proseList": [
+      "Sliding glass patio door and roller track repairs.",
+      "Commercial pivot hinge and automatic closer repairs.",
+      "Entry door lock, deadbolt, and panic bar upgrades.",
+      "Full entry door replacement and framing restoration."
+    ],
+    "proseImage": "/door-repairs-replacement.jpg",
+    "proseImageAlt": "Technician fitting clean replacement door into entry frame",
+    "comparisonTitle": "Our Door Care vs. Basic Handymen",
+    "comparisonSubtitle": "We focus on long-lasting structural door repairs and security locks.",
+    "comparisonHeaders": [
+      "Door Aspect",
+      "Standard Handymen",
+      "Our Specialist"
+    ],
+    "comparisonRows": [
+      {
+        "aspect": "Hardware Quality",
+        "basic": "Standard residential locks",
+        "allstate": "Heavy-duty commercial-grade deadbolts and locksets"
+      },
+      {
+        "aspect": "Pivots & Closers",
+        "basic": "Do not service hydraulic parts",
+        "allstate": "Full calibration of commercial closers and pivots"
+      },
+      {
+        "aspect": "Door Glass",
+        "basic": "Refer to glass shops",
+        "allstate": "Same-day on-site door glass replacement"
+      },
+      {
+        "aspect": "Frame Repair",
+        "basic": "Ignore wood rot/frame splits",
+        "allstate": "Rebuild split jambs and replace wood framing"
+      }
+    ],
+    "onboardingTitle": "Our Door Repair Workflow",
+    "onboardingSubtitle": "Clean, structured entry and lock restoration.",
+    "onboardingSteps": [
+      {
+        "num": "01",
+        "title": "Assessment",
+        "text": "We check frame alignment, inspect locking latches, and test hinge weight load."
+      },
+      {
+        "num": "02",
+        "title": "Hardware Prep",
+        "text": "We align hinges, adjust hydraulic closures, and lubricate sliding tracks."
+      },
+      {
+        "num": "03",
+        "title": "Jamb Restoration",
+        "text": "We repair split wood jambs or weld commercial metal door frames if needed."
+      },
+      {
+        "num": "04",
+        "title": "Lock & Glass Fit",
+        "text": "We replace broken deadbolts, mortise locks, panic hardware, or door glass panes."
+      },
+      {
+        "num": "05",
+        "title": "Testing",
+        "text": "We test key lock functions and verify that the door latches cleanly."
+      }
+    ],
+    "ctaTitle": "Broken Entry Door or Faulty Locks?",
+    "ctaText": "Restore your building security. Call us at (818) 739-8709 for fast door repair solutions.",
+    "faqs": [
+      {
+        "q": "Why is my sliding glass patio door so hard to slide?",
+        "a": "This is usually caused by dirt buildup in the track or worn-out rollers at the bottom of the door. We can clean the tracks and replace the rollers to make the door slide easily again."
+      },
+      {
+        "q": "Do you repair commercial automatic door closers?",
+        "a": "Yes. We calibrate, repair, and replace hydraulic commercial door closers, pivot hinges, and panic exit bars."
+      }
+    ],
+    "locationsSubtitle": "We service and repair residential and commercial entry doors in Sherman Oaks, Studio City, Encino, Tarzana, and Van Nuys."
+  },
+  {
+    "slug": "commercial-glass-door-repair",
+    "title": "Commercial Glass Door Repair | Sherman Oaks, CA",
+    "description": "Commercial glass entry door repair and replacement. Pivot hinges, hydraulic closers, panic bars, and storefront door glass repairs in Sherman Oaks.",
+    "serviceType": "repair",
+    "serviceLabel": "Commercial Glass Door Repair",
+    "heroImage": "/commercial-glass-door-repair.jpg",
+    "heroImageAlt": "Heavy aluminum glass door in a commercial office entryway",
+    "heroBadge": "Retail Door Glaziers",
+    "heroTitleLine1": "Storefront & Office",
+    "heroTitleLine2": "Commercial Glass Door Repair",
+    "heroText": "Fix drag, faulty closures, broken pivots, and shattered glass. We keep your commercial building doors safe, functional, and code-compliant.",
+    "breadcrumbsCurrent": "Commercial Glass Door Repair",
+    "whyTitle": "Why Choose Us for Commercial Doors",
+    "whySubtitle": "We resolve commercial glass door failures quickly to keep your business accessible.",
+    "strengths": [
+      {
+        "icon": "🏢",
+        "title": "Heavy Commercial",
+        "text": "We carry heavy-duty pivots, hydraulic closers, and structural components for glass doors."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Lock & Panic Bars",
+        "text": "We replace panic hardware, deadbolts, thumbturns, and mortise cylinders."
+      },
+      {
+        "icon": "⚡",
+        "title": "Same-Day Glass",
+        "text": "We replace shattered commercial door glass panes on-site in a single visit."
+      },
+      {
+        "icon": "⏱️",
+        "title": "Off-Hours Booking",
+        "text": "Schedule repairs during closed hours to ensure zero operational delays."
+      }
+    ],
+    "proseTitle": "Professional Glass Door Alignment & Safety Hardware",
+    "proseParagraphs": [
+      "A heavy commercial glass door that drags on the floor or slams shut is a serious physical hazard and a major liability for businesses. If the door pivot is broken or the hydraulic closer leaks, the door will not function safely.",
+      "We provide specialized commercial glass door repair. We adjust hydraulic closers, replace worn offset pivots and center pivots, replace shattered tempered glass panels, and align lock sills.",
+      "We provide all required compliance manifest logs, working closely with building managers to ensure entrances satisfy ADA accessibility guidelines."
+    ],
+    "proseList": [
+      "Replacement of shattered commercial safety tempered door glass.",
+      "Adjustment and replacement of hydraulic overhead closer units.",
+      "Offset and center pivot hinge repairs to correct door drag.",
+      "Panic exit bar, deadbolt, and commercial handle replacements."
+    ],
+    "proseImage": "/commercial-glass-door-repair.jpg",
+    "proseImageAlt": "Close-up of offset pivot hinge at the bottom of a commercial door",
+    "comparisonTitle": "Our Commercial Door Service vs. Basic Locksmiths",
+    "comparisonSubtitle": "We combine glazier expertise with structural hardware repairs.",
+    "comparisonHeaders": [
+      "Door Aspect",
+      "Typical Locksmiths",
+      "Our Specialists"
+    ],
+    "comparisonRows": [
+      {
+        "aspect": "Glass Replacement",
+        "basic": "Do not replace glass panels",
+        "allstate": "On-site same-day commercial tempered glass replacement"
+      },
+      {
+        "aspect": "Pivot Hinge Service",
+        "basic": "Only oil squeaking hinges",
+        "allstate": "Full replacement of offset and center commercial pivots"
+      },
+      {
+        "aspect": "Closer Calibration",
+        "basic": "Basic screws check",
+        "allstate": "Hydraulic sweep and latch speed calibration for ADA compliance"
+      },
+      {
+        "aspect": "24/7 Availability",
+        "basic": "Emergency charge extra",
+        "allstate": "True 24/7 dispatch for storefront security door issues"
+      }
+    ],
+    "onboardingTitle": "Our Commercial Door Workflow",
+    "onboardingSubtitle": "ADA-compliant alignment and safety hardware replacements.",
+    "onboardingSteps": [
+      {
+        "num": "01",
+        "title": "Diagnostics",
+        "text": "We check the door closer pressure, inspect pivot bearings, and trace lock alignments."
+      },
+      {
+        "num": "02",
+        "title": "Drag Correction",
+        "text": "We replace failed pivot hinges to lift the door panel off the floor."
+      },
+      {
+        "num": "03",
+        "title": "Closer Calibration",
+        "text": "We refill hydraulic fluid or install a new closer unit to adjust swing speeds."
+      },
+      {
+        "num": "04",
+        "title": "Security Locking",
+        "text": "We inspect panic hardware, deadbolts, and key cylinders to guarantee closure."
+      },
+      {
+        "num": "05",
+        "title": "Verification",
+        "text": "We test door opening force to ensure ADA compliance and verify secure latching."
+      }
+    ],
+    "ctaTitle": "Commercial Glass Door Dragging or Slamming?",
+    "ctaText": "Keep your business doors functional and safe. Contact us at (818) 739-8709.",
+    "faqs": [
+      {
+        "q": "Why is my commercial glass door dragging on the floor?",
+        "a": "This is almost always caused by worn bearings inside the pivot hinge (either offset or center pivot) at the bottom or top of the door frame. Replacing the pivots will restore alignment."
+      },
+      {
+        "q": "Do you adjust commercial door closing speeds for ADA compliance?",
+        "a": "Yes. We calibrate the hydraulic valves on commercial closers to ensure they satisfy the ADA requirements of opening force and closing time."
+      }
+    ],
+    "locationsSubtitle": "We repair commercial glass doors and storefronts in Sherman Oaks, Studio City, Encino, Tarzana, and Van Nuys."
+  }
+]

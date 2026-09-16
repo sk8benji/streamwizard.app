@@ -1,0 +1,73 @@
+---
+// Footer component for Stream Wizard
+const year = new Date().getFullYear();
+---
+
+<footer class="border-t border-slate-800 bg-slate-950 text-slate-400 py-16 text-sm">
+  <div class="container mx-auto px-4 sm:px-6">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-slate-800">
+      <!-- Col 1: Brand Info -->
+      <div class="md:col-span-5 space-y-4">
+        <a href="/" class="flex items-center gap-3">
+          <img 
+            src="/logo.jpg" 
+            alt="Stream Wizard Icon" 
+            width="44"
+            height="44"
+            style="width: 44px; height: 44px; min-width: 44px; max-height: 44px; object-fit: cover;"
+            class="rounded-xl border border-cyan-500/30"
+          />
+          <div class="flex flex-col">
+            <span class="text-xl font-extrabold tracking-tight text-white leading-none">
+              STREAM <span class="text-cyan-400">WIZARD</span>
+            </span>
+            <span class="text-[10px] font-semibold tracking-wider text-slate-400 uppercase mt-1">
+              Remote Podcast & Video Recording
+            </span>
+          </div>
+        </a>
+        <p class="text-slate-400 text-sm max-w-sm leading-relaxed">
+          Grabación remota de podcasts y entrevistas con pistas locales independientes en audio WAV a 48kHz y video 4K, transcripción automática con IA y respaldo en la nube.
+        </p>
+        <div class="pt-2 text-xs text-slate-500">
+          Contacto y soporte técnico: <a href="mailto:info@streamwizard.app" class="text-cyan-400 hover:underline">info@streamwizard.app</a>
+        </div>
+      </div>
+
+      <!-- Col 2: Product Links -->
+      <div class="md:col-span-3 space-y-3">
+        <div class="text-xs font-bold uppercase tracking-widest text-slate-300">Plataforma</div>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/#features" class="hover:text-white transition-colors">Pistas Separadas (Multitrack)</a></li>
+          <li><a href="/#studio-quality" class="hover:text-white transition-colors">Calidad vs. Zoom/Meet</a></li>
+          <li><a href="/#how-it-works" class="hover:text-white transition-colors">Cómo Funciona</a></li>
+          <li><a href="/#formats" class="hover:text-white transition-colors">Formatos de Exportación</a></li>
+          <li><a href="https://my.streamwizard.app" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:text-cyan-300 transition-colors font-semibold">Abrir Estudio en my.streamwizard.app &rarr;</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Resources & Support -->
+      <div class="md:col-span-4 space-y-3">
+        <div class="text-xs font-bold uppercase tracking-widest text-slate-300">Soporte & Legal</div>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/support" class="hover:text-white transition-colors font-semibold text-cyan-400 flex items-center gap-1.5">Centro de Ayuda y Permisos</a></li>
+          <li><a href="/#faq" class="hover:text-white transition-colors">Preguntas Frecuentes</a></li>
+          <li><a href="/privacy-policy" class="hover:text-white transition-colors">Política de Privacidad</a></li>
+          <li><a href="/support#terms" class="hover:text-white transition-colors">Términos de Servicio</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+      <div>
+        &copy; {year} Stream Wizard (<a href="https://streamwizard.app" class="hover:text-slate-400">streamwizard.app</a>). Todos los derechos reservados.
+      </div>
+      <div class="flex items-center gap-6">
+        <span>Audio Master WAV 48kHz</span>
+        <span>Video Local hasta 4K UHD</span>
+        <span>Transcripción con IA</span>
+      </div>
+    </div>
+  </div>
+</footer>

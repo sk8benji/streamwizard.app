@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Hero from '../components/Hero.astro';
+import FeaturesGrid from '../components/FeaturesGrid.astro';
+import IntelligenceShowcase from '../components/IntelligenceShowcase.astro';
+import HowItWorks from '../components/HowItWorks.astro';
+import Integrations from '../components/Integrations.astro';
+import FaqSection from '../components/FaqSection.astro';
+import ContactSection from '../components/ContactSection.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout 
+  title="Stream Wizard | Grabación Remota de Podcasts en Calidad de Estudio"
+  description="Graba podcasts y entrevistas a distancia en máxima calidad. Pistas de audio y video separadas localmente (hasta 4K y WAV 48kHz), transcripción automática con IA y subida a la nube."
+  canonicalUrl="https://streamwizard.app"
+>
+  <Navbar />
+  <main>
+    <Hero />
+    <FeaturesGrid />
+    <IntelligenceShowcase />
+    <HowItWorks />
+    <Integrations />
+    <FaqSection />
+    <ContactSection />
+  </main>
+  <Footer />
+</Layout>

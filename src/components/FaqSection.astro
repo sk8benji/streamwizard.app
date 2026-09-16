@@ -1,0 +1,64 @@
+---
+// FAQ section for Stream Wizard
+const faqs = [
+  {
+    q: "¿Cómo funciona la grabación local si la conexión de mi invitado es inestable?",
+    a: "Stream Wizard graba directamente en el navegador de cada participante utilizando los recursos de su equipo. La llamada en vivo se utiliza solo para que puedan verse y hablar en tiempo real; el master se almacena en el almacenamiento temporal local de cada navegador y se sube en segundo plano. Si el Wi-Fi de alguien fluctúa, el archivo maestro final no sufre cortes ni pixelaciones."
+  },
+  {
+    q: "¿Mis invitados necesitan instalar programas o crear una cuenta?",
+    a: "No. Solo compartes el enlace de tu estudio virtual. Tus invitados ingresan en 1 solo clic desde Chrome, Safari, Edge o Brave. No tienen que registrarse, recordar contraseñas ni descargar aplicaciones pesadas."
+  },
+  {
+    q: "¿En qué formatos y calidades puedo descargar las pistas?",
+    a: "Obtienes pistas de audio aisladas por persona en formato WAV a 48kHz (calidad de estudio sin pérdida ni compresión), video de cada cámara hasta 4K UHD a 60 cuadros por segundo, y el archivo de transcripción con IA en formatos .SRT, .VTT y .TXT."
+  },
+  {
+    q: "¿Qué tan rápida y precisa es la transcripción con IA?",
+    a: "En cuanto presionas 'Detener Grabación', nuestro motor de IA procesa cada pista de audio aislada. Al no tener voces encimadas, la precisión es mucho mayor y genera el texto por orador con marcas de tiempo exactas en cuestión de minutos."
+  },
+  {
+    q: "¿Cómo funciona la subida automática a la nube?",
+    a: "A diferencia de otras plataformas que esperan hasta el final para iniciar la subida de gigabytes enteros, Stream Wizard sube bloques de video y audio en segundo plano de manera continua mientras hablas. Al terminar la llamada, el archivo final suele estar 100% completado o a pocos segundos de terminar."
+  },
+  {
+    q: "¿Puedo grabar episodios en solitario o solo entrevistas?",
+    a: "Puedes utilizar tu estudio tanto para grabar episodios individuales (videopodcast en 4K y audio WAV para YouTube o Spotify) como para entrevistas y mesas redondas remotas con múltiples invitados."
+  }
+];
+---
+
+<section id="faq" class="py-20 sm:py-28 bg-white border-t border-slate-100">
+  <div class="container mx-auto px-4 sm:px-6 max-w-4xl">
+    <div class="text-center mb-16">
+      <span class="badge-pill mb-4">Preguntas Frecuentes</span>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-950 tracking-tight mb-4">
+        Respuestas Claras a tus <span class="text-gradient">Dudas de Grabación</span>
+      </h2>
+      <p class="text-slate-600 text-lg">
+        Todo lo que necesitas saber para grabar tus podcasts a distancia con calidad de estudio.
+      </p>
+    </div>
+
+    <!-- FAQ Accordion List -->
+    <div class="space-y-4">
+      {faqs.map((faq, idx) => (
+        <details class="group rounded-2xl border border-slate-200/90 bg-white p-6 open:bg-slate-50/50 open:border-cyan-200 transition-all cursor-pointer">
+          <summary class="flex items-center justify-between font-bold text-slate-900 text-lg list-none select-none">
+            <span>{faq.q}</span>
+            <span class="ml-4 flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-slate-600 group-open:rotate-180 group-open:bg-cyan-600 group-open:text-white transition-transform duration-200">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </span>
+          </summary>
+          <div class="mt-4 text-slate-600 leading-relaxed text-sm sm:text-base border-t border-slate-100 pt-4">
+            {faq.a}
+          </div>
+        </details>
+      ))}
+    </div>
+
+    <div class="mt-12 text-center p-6 rounded-2xl bg-cyan-50/60 border border-cyan-100 text-slate-700 text-sm">
+      ¿Tienes alguna pregunta técnica sobre tu setup de audio o cámara? Escríbenos a <a href="mailto:info@streamwizard.app" class="text-cyan-700 font-bold underline hover:text-cyan-800">info@streamwizard.app</a> o accede a nuestra app en <a href="https://my.streamwizard.app" target="_blank" class="text-cyan-700 font-bold underline hover:text-cyan-800">my.streamwizard.app</a>.
+    </div>
+  </div>
+</section>

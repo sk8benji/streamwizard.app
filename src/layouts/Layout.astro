@@ -1,0 +1,104 @@
+---
+import '../styles/globals.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  canonicalUrl?: string;
+  ogImage?: string;
+}
+
+const {
+  title = "Stream Wizard | Studio-Quality Remote Podcast & Video Recording",
+  description = "Record studio-grade remote podcasts and video interviews. Stream Wizard records separate local multitrack audio (48kHz WAV) and up to 4K video, with instant AI transcription and continuous cloud backup.",
+  canonicalUrl = Astro.url.href,
+  ogImage = "/logo.jpg"
+} = Astro.props;
+
+let resolvedCanonical = canonicalUrl;
+if (resolvedCanonical.endsWith('/index.html')) {
+  resolvedCanonical = resolvedCanonical.substring(0, resolvedCanonical.length - 10);
+}
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpeg" href="/logo.jpg" />
+    <link rel="apple-touch-icon" href="/logo.jpg" />
+    
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content="Stream Wizard, remote podcast recording, local multitrack recording, 4K video podcast, 48kHz WAV audio, AI transcription, podcast studio software, remote interview recording, cloud video backup" />
+    <link rel="canonical" href={resolvedCanonical} />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={resolvedCanonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS (Instant, reliable rendering) -->
+    <script is:inline src="https://cdn.tailwindcss.com"></script>
+    <script is:inline>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                cyan: '#06b6d4',
+                sky: '#0284c7',
+                blue: '#2563eb',
+                navy: '#0b1329',
+              }
+            },
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json" is:inline set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Stream Wizard",
+      "operatingSystem": "All modern web browsers (Chrome, Safari, Edge, Firefox, Brave)",
+      "applicationCategory": "MultimediaApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://streamwizard.app",
+      "description": description,
+      "publisher": {
+        "@type": "Organization",
+        "name": "Stream Wizard",
+        "url": "https://streamwizard.app",
+        "logo": "https://streamwizard.app/logo.jpg"
+      }
+    })} />
+    <slot name="head" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+

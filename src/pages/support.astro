@@ -1,0 +1,159 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import SupportTicketForm from '../components/SupportTicketForm.tsx';
+---
+
+<Layout 
+  title="Stream Wizard Centro de Ayuda & Guías de Estudio | Audio, Cámara y Grabación"
+  description="Centro de Soporte Oficial de Stream Wizard. Guías para configuración de micrófonos, resolución de cámara web, permisos de navegador, pistas separadas y subida a la nube."
+  canonicalUrl="https://streamwizard.app/support"
+>
+  <Navbar />
+  
+  <main class="bg-slate-50/50 min-h-screen pb-20">
+    <!-- Support Hero -->
+    <section class="py-16 sm:py-20 bg-radial-glow border-b border-slate-200/80">
+      <div class="container mx-auto px-4 sm:px-6 text-center max-w-4xl">
+        <div class="badge-pill mb-4">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span>Stream Wizard Cloud Studio &bull; Estado del Sistema: 100% Operacional</span>
+        </div>
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-950 tracking-tight mb-4">
+          Stream Wizard <span class="text-gradient">Centro de Ayuda & Guías</span>
+        </h1>
+        <p class="text-slate-600 text-lg sm:text-xl leading-relaxed max-w-2xl mx-auto mb-6">
+          Aprende a configurar tu micrófono, conectar cámaras en alta definición, invitar participantes y descargar tus pistas maestras y transcripciones de IA.
+        </p>
+
+        <div class="flex flex-wrap items-center justify-center gap-4 text-xs font-semibold text-slate-600">
+          <span class="bg-white px-3 py-1.5 rounded-full border border-slate-200 shadow-xs">🎙️ Configuración de Audio & Micrófonos</span>
+          <span class="bg-white px-3 py-1.5 rounded-full border border-slate-200 shadow-xs">📹 Cámara Web & Resolución 4K</span>
+          <span class="bg-white px-3 py-1.5 rounded-full border border-slate-200 shadow-xs">✉️ Soporte Directo: info@streamwizard.app</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Setup Guides Accordion -->
+    <section class="py-16 container mx-auto px-4 sm:px-6 max-w-5xl">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight mb-2">Guías y Tutoriales del Estudio</h2>
+        <p class="text-slate-600 text-sm">Selecciona una guía técnica para optimizar la calidad de tus grabaciones</p>
+      </div>
+
+      <div class="space-y-6 mb-20">
+        
+        <!-- Guide 1: Micrófono y Permisos del Navegador -->
+        <div class="card-bento p-6 sm:p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-10 h-10 rounded-xl bg-cyan-100 text-cyan-700 flex items-center justify-center font-bold text-lg">1</span>
+            <div>
+              <h3 class="text-xl font-bold text-slate-900">Permisos de Cámara y Micrófono en el Navegador</h3>
+              <p class="text-xs text-slate-500">Cómo asegurar que tu navegador capture con la máxima calidad de hardware</p>
+            </div>
+          </div>
+
+          <div class="space-y-3 text-sm text-slate-600 leading-relaxed pl-2 sm:pl-12">
+            <p>1. Ingresa a tu estudio en <a href="https://my.streamwizard.app" target="_blank" class="text-cyan-600 font-semibold underline">my.streamwizard.app</a>.</p>
+            <p>2. Cuando el navegador solicite acceso a tu micrófono y cámara, presiona <strong>"Permitir"</strong>.</p>
+            <p>3. Si accidentalmente bloqueaste los permisos, haz clic en el icono del candado en la barra de direcciones del navegador y cambia Cámara y Micrófono a <strong>"Permitir"</strong>, luego recarga la página.</p>
+            <p>4. En la pantalla de verificación previa (Green Room), selecciona tu micrófono dedicado (ej. USB o XLR) y cámara en lugar del micrófono integrado de la laptop para lograr audio profesional a 48kHz.</p>
+          </div>
+        </div>
+
+        <!-- Guide 2: Cómo Invitar Participantes -->
+        <div class="card-bento p-6 sm:p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-10 h-10 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center font-bold text-lg">2</span>
+            <div>
+              <h3 class="text-xl font-bold text-slate-900">Invitar a tus Huéspedes o Co-hosts (Sin Instalaciones)</h3>
+              <p class="text-xs text-slate-500">Acceso inmediato en 1 clic para cualquier persona</p>
+            </div>
+          </div>
+
+          <div class="space-y-3 text-sm text-slate-600 leading-relaxed pl-2 sm:pl-12">
+            <p>Tus invitados no necesitan crear una cuenta ni instalar aplicaciones:</p>
+            <ul class="list-disc pl-5 space-y-2">
+              <li><strong>Copiar Enlace de Invitación:</strong> Dentro de tu estudio en <code class="text-cyan-700 bg-cyan-50 px-1.5 py-0.5 rounded font-mono">my.streamwizard.app</code>, pulsa en "Copiar Enlace de Invitado".</li>
+              <li><strong>Envío Seguro:</strong> Comparte el enlace por WhatsApp, correo o calendario.</li>
+              <li><strong>Ingreso en 1 Clic:</strong> Al hacer clic en el enlace, el invitado entrará a la sala de espera, elegirá su micrófono/auriculares y se unirá de inmediato.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Guide 3: Grabación Local y Subida a la Nube -->
+        <div class="card-bento p-6 sm:p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-10 h-10 rounded-xl bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold text-lg">3</span>
+            <div>
+              <h3 class="text-xl font-bold text-slate-900">Grabación Local y Respaldo Continuo en la Nube</h3>
+              <p class="text-xs text-slate-500">Entendiendo cómo se guardan los archivos maestros en alta calidad</p>
+            </div>
+          </div>
+
+          <div class="space-y-3 text-sm text-slate-600 leading-relaxed pl-2 sm:pl-12">
+            <p>1. Mientras la sesión está activa, cada pista se graba en el buffer local del dispositivo de cada usuario.</p>
+            <p>2. De forma paralela, Stream Wizard envía fragmentos cifrados a tu almacenamiento en la nube sin ralentizar la conversación.</p>
+            <p>3. Al hacer clic en <strong>"Detener Grabación"</strong>, verás una barra de progreso que confirma que el 100% de los datos locales se han sincronizado con la nube.</p>
+            <p>4. Pide a tus invitados que no cierren la pestaña del navegador hasta que aparezca la confirmación verde de <strong>"Subida Completa (100%)"</strong> (suele demorar solo unos pocos segundos).</p>
+          </div>
+        </div>
+
+        <!-- Guide 4: Descarga de Pistas Separadas y Transcripciones de IA -->
+        <div class="card-bento p-6 sm:p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-lg">4</span>
+            <div>
+              <h3 class="text-xl font-bold text-slate-900">Descarga de Masters y Transcripción Automática con IA</h3>
+              <p class="text-xs text-slate-500">Exportación directa a Premiere, DaVinci, Audacity o Descript</p>
+            </div>
+          </div>
+
+          <div class="space-y-3 text-sm text-slate-600 leading-relaxed pl-2 sm:pl-12">
+            <p>Desde el panel de grabaciones de <a href="https://my.streamwizard.app" target="_blank" class="text-cyan-600 font-semibold underline">my.streamwizard.app</a> podrás descargar:</p>
+            <ul class="list-disc pl-5 space-y-2">
+              <li><strong>Audio WAV Aislado (48kHz):</strong> Pistas individuales limpias por cada participante, listas para ecualizar y masterizar.</li>
+              <li><strong>Video 4K / 1080p Aislado:</strong> Archivos MP4 individuales con bitrate nativo sin artefactos de compresión.</li>
+              <li><strong>Transcripción con IA:</strong> Archivo .SRT sincronizado para subtítulos automáticos y .TXT para notas del episodio o artículos de blog.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Submit a Ticket Section -->
+      <div id="ticket" class="max-w-4xl mx-auto mb-20">
+        <SupportTicketForm client:load />
+      </div>
+
+      <!-- Google Play & Legal Declarations -->
+      <div id="declarations" class="max-w-4xl mx-auto rounded-3xl bg-white border border-slate-200/90 p-8 sm:p-10 shadow-sm">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-10 h-10 rounded-xl bg-slate-900 text-white flex items-center justify-center font-bold text-base">
+            ⚖
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-slate-900">Información del Proveedor y Seguridad</h3>
+            <p class="text-xs text-slate-500">Compromiso de Privacidad y Calidad de Estudio</p>
+          </div>
+        </div>
+
+        <div class="space-y-4 text-sm text-slate-600 leading-relaxed">
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+            <strong class="text-slate-900 block mb-1">Contacto Oficial:</strong>
+            Stream Wizard Studio Platform &bull; Soporte: <a href="mailto:info@streamwizard.app" class="text-cyan-600 underline font-semibold">info@streamwizard.app</a> &bull; Plataforma Web: <a href="https://streamwizard.app" class="text-cyan-600 underline font-semibold">streamwizard.app</a> &bull; Aplicación de Estudio: <a href="https://my.streamwizard.app" target="_blank" rel="noopener noreferrer" class="text-cyan-600 underline">my.streamwizard.app</a>
+          </div>
+
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+            <strong class="text-slate-900 block mb-1">Cifrado de Pistas y Privacidad de Grabación:</strong>
+            Todos los flujos de audio y video se transfieren mediante TLS 1.3 con cifrado de extremo a extremo en tránsito y se almacenan cifrados con AES-256 en la nube. Tus grabaciones de estudio y transcripciones de IA son de tu exclusiva propiedad y nunca se utilizan para entrenar modelos públicos sin tu consentimiento. Consulta nuestra <a href="/privacy-policy" class="text-cyan-600 underline font-semibold">Política de Privacidad</a>.
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
